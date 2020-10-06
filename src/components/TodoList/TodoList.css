@@ -1,0 +1,8 @@
+.flex-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.empty-list-msg {
+  margin-top: 20px;
+}

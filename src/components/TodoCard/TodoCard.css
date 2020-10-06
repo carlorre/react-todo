@@ -1,0 +1,70 @@
+/* --------------------------- */
+/* ----------Layout----------- */
+/* --------------------------- */
+
+.todo-card {
+  width: 300px;
+  display: flex;
+  padding: 15px 0;
+  min-height: 30px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+}
+
+.todo-card li{
+  flex:1;
+  width: 200px;
+  padding: 0 20px;
+  margin-left: auto;
+  word-wrap: break-word;
+}
+
+/* --------------------------- */
+/* ---------Effects----------- */
+/* --------------------------- */
+
+.line-through {
+  color: rgb(191, 32, 32);
+  text-decoration: line-through;
+}
+
+.todo-complete {
+  order: 2;
+}
+
+/* --------------------------- */
+/* ---------Buttons----------- */
+/* --------------------------- */
+
+.todo-card button {
+  height: 100%;
+  border: none;
+  background-color: white;
+}
+
+.todo-card button:focus {
+  outline: none;
+  opacity: 0.7;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.fa-circle-o:hover{
+  opacity: 0.7;
+}
+
+.fa-check-circle-o:hover{
+  opacity: 0.7;
+}
+
+.fa-trash-o:hover {
+  color: rgb(191, 32, 32);
+}
+
+.btn-hidden {
+  display: none;
+}
