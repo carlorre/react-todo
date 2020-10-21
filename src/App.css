@@ -15,11 +15,10 @@ body {
 }
 
 .heading {
-  padding: 20px;
-  color: white;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
   font-size: 1.3em;
   text-align: center;
-  background-color: rgb(25, 25, 101);
 }
 
 .sub-heading {
